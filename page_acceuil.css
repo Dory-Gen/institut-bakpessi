@@ -1,0 +1,205 @@
+.fond_acceuil {
+
+    background-image: url(https://lh3.googleusercontent.com/d/1mrKltlKY7A5JRJdy9gu7_atZ3_meSs6T);
+    background-size: cover;
+    background-position: center;
+    
+    
+    height: 100vh;
+
+
+
+}
+
+.flou_fond_acceuil {
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 100vh;
+    
+}
+
+.debut {
+
+    padding: 30vh 10vw;
+    animation: fadeIn 2s ease-in;
+    font-size: 1.2rem;
+}
+
+.phrase_accroche h2{
+    font-family: Cormorant Garamond;
+}
+.devise {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.devise img{
+    width: 5%;
+}
+
+.button {
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    color: white;
+    background-color: #890c25;
+    border: none;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+/*RESPONSIVITE*/
+
+@media (max-width: 1600px) {
+  
+.devise {
+    display: flex;
+    align-items: center;
+font-size: 1.5rem;
+
+
+}
+
+.debut{
+    font-size: 1.5rem;
+}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+   
+
+.devise {
+    display: flex;
+    align-items: center;
+font-size: 2rem;
+
+
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  
+.devise {
+    display: flex;
+    align-items: center;
+font-size: 1.2rem;
+
+
+}
+
+}
+
+
+@media (max-width: 890px) {
+
+.devise {
+    display: flex;
+    align-items: center;
+font-size: 1.2rem;
+
+
+}
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+.devise {
+    display: flex;
+    align-items: center;
+font-size: 1.2rem;
+
+
+}
+
+.debut{
+    font-size: 1em;
+}
+
+.button {
+    display: flex;
+    padding: 0.8em 1em;
+    align-items: center;
+    color: white;
+    background-color: #890c25;
+    border: none;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .fond_acceuil{
+        height:  70vh;
+    }
+
+    .flou_fond_acceuil{
+        height: 70vh;
+    }
+   
+.devise {
+    display: flex;
+    align-items: center;
+font-size: 0.8rem;
+
+
+}
+
+.devise img{
+    width: 15%;
+}
+
+.button {
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    color: white;
+    background-color: #890c25;
+    border: none;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+}
+
+
+

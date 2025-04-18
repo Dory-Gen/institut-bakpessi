@@ -1,0 +1,175 @@
+.container {
+    background-color: #890c25;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+}
+
+.header {
+    margin-left: 20px;
+}
+
+.header h1{
+    font-family: Cormorant Garamond;
+}
+
+.header p{
+    margin-top: 3vh ;
+}
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+    margin-top: 3vh;
+    margin-left: 20px;
+}
+
+.temoignages-carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 12px;
+}
+
+.temoignage {
+    flex: 1 0 25%;
+    width: 25%;
+    padding-left: 12px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.temoignage-text {
+    margin-top: 20px;
+    height: auto;
+}
+
+.temoignage-image {
+    width: 15%;
+    margin-top: 15px;
+}
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+
+
+
+@media (max-width: 1024px){
+    .temoignages-carousel {
+        display: flex;
+        transition: transform 0.5s ease;
+        gap: 12px;
+    }
+    
+    .temoignage {
+        flex: 1 0 50%;
+        width: 50%;
+        padding-left: 12px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+@media (max-width: 890px){
+    .temoignages-carousel {
+        display: flex;
+        transition: transform 0.5s ease;
+        gap: 12px;
+    }
+    
+    .temoignage {
+        flex: 1 0 50%;
+        width: 50%;
+        padding-left: 12px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+@media (max-width: 768px){
+    .temoignages-carousel {
+        display: flex;
+        transition: transform 0.5s ease;
+        gap: 12px;
+    }
+    
+    .temoignage {
+        flex: 1 0 50%;
+        width: 50%;
+        padding-left: 12px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+@media (max-width: 690px){
+    .temoignages-carousel {
+        display: flex;
+        transition: transform 0.5s ease;
+        
+    }
+    
+    .temoignage {
+        flex: 0 0 100%;
+        width: 100%;
+        padding-left: 12px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+}
+
+
+
+@media (max-width: 481px){
+    .temoignages-carousel {
+        display: flex;
+        transition: transform 0.5s ease;
+        
+    }
+    
+    .temoignage {
+        flex: 0 0 100%;
+        width: 100%;
+        padding-left: 12px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+}

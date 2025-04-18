@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #D9D9D9;
+}
+
+section {
+    margin-bottom: 50px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.campus_moyens{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:   24px; 
+    margin-top: 5vh;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color:#890c25 ;
+    text-align: center;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+
+
+.image-container {
+    flex: 1;
+    text-align: center;
+}
+
+
+
+
+
+.valeurs ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .presentation {
+        flex-direction: column;
+    }
+    .valeurs ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .campus_moyens{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap:   24px; 
+    margin-top: 5vh;
+}
+}

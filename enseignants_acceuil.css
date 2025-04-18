@@ -1,0 +1,66 @@
+.conteneur_enseignants{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    width: 100%;
+    }
+    
+    .introduction_enseignants{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    }
+
+    .introduction_enseignants h1{
+        font-family: Cormorant Garamond;
+    }
+    
+    .enseignants{
+      width: 80%;  
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .enseignants h4{
+        font-family: Cormorant Garamond;
+        font-size: 1.3rem;
+    }
+
+
+    @media screen and (max-width: 690px){
+        .conteneur_enseignants{
+            margin-top: 5vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f4f4f4;
+            width: 100%;
+            }
+
+        .enseignants{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            
+            margin-top: 50px;
+            align-items: center;
+            justify-content: center;
+            }
+
+            .introduction_enseignants{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                }
+
+                .enseignants img{
+                    place-self: center;
+                }
+    }

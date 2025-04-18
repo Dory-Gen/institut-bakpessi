@@ -1,0 +1,13 @@
+#button_anime img{
+    animation: flecheAnimation 1s infinite alternate ease-in-out;
+}
+
+
+@keyframes flecheAnimation {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(5px);
+    }
+  }

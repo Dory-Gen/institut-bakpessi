@@ -1,0 +1,161 @@
+
+
+.stats{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.div_1 {
+    height: 30vh;
+    width: 25vw;
+    background-color:#890c25 ;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_2 {
+    width: 0.1vw;
+    background-color: white;
+    height: 25vh;
+}
+
+
+
+
+@media (max-width: 1024px){
+
+    
+    .stats{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+
+    .div_1 {
+        height: 30vh;
+        width: 30vw;
+        background-color:#890c25 ;
+        
+        color: white;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .div_2 {
+        width: 0.1vw;
+        background-color: white;
+        height: 25vh;
+    }
+
+}
+
+@media (max-width: 890px){
+
+    
+    .stats{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+
+    .div_1 {
+        height: 30vh;
+        width: 25vw;
+        background-color:#890c25 ;
+        
+        color: white;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .div_2 {
+        width: 0.1vw;
+        background-color: white;
+        height: 25vh;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    
+    .stats{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+
+    .div_1 {
+        height: 40vh;
+        width: 60vw;
+        background-color:#890c25 ;
+        
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .div_2 {
+        width: 60vw;
+        background-color: white;
+        height: 0.2vh;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    
+    .stats{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        
+    }
+
+    .div_1 {
+        height: 25vh;
+        width: 60vw;
+        background-color:#890c25 ;
+        
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .div_2 {
+        width: 60vw;
+        background-color: white;
+        height: 0.1vh;
+    }
+
+}
+

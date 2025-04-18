@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+
+
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    position: relative;
+    
+    
+}
+
+
+
+.logo {
+    width: 15%;
+}
+
+nav {
+    display: flex;
+    
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+   justify-content: space-around;
+}
+
+.navigation li {
+    position: relative;
+    margin-left: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    
+    transition: color 0.3s;
+    padding: 10px;
+    display: block;
+}
+
+.navigation a:hover {
+    color: #007BFF;
+}
+
+/* Sous-menu caché par défaut */
+.sous_menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.sous_menu li {
+    width: 100%;
+}
+
+.sous_menu a {
+    padding: 10px;
+    color: #333;
+    font-weight: normal;
+}
+
+/*
+.sous_menu a:hover {
+    
+}*/
+
+/* Affichage au survol (PC) */
+.navigation li:hover .sous_menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Menu Hamburger */
+.menu_hamburger_box {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.menu_hamburger {
+    width: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu_hamburger_box.active .menu_hamburger {
+    transform: rotate(90deg);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #f0f0f0;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        z-index: 100;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation li {
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Sous-menu caché par défaut sur mobile */
+    .sous_menu {
+        position: static;
+        box-shadow: none;
+        display: none;
+        opacity: 1;
+        visibility: visible;
+        width: 100%;
+    }
+
+    .navigation li.active .sous_menu {
+        display: block;
+    }
+
+    .menu_hamburger_box {
+        display: block;
+    }
+
+    .logo {
+        width: 30%;
+    }
+}
