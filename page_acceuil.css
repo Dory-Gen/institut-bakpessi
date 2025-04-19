@@ -40,7 +40,7 @@
 }
 
 .devise img{
-    width: 10%;
+    width: 5%;
 }
 
 
@@ -120,21 +120,24 @@ font-size: 1.2rem;
 
 }
 .fond_acceuil{
-    height: 70vh;
+    height: 80vh;
 }
 .flou_fond_acceuil{
-    height: 70vh;
+    height: 80vh;
 }
 
 .debut {
 
     padding: 25vh 10vw;
     animation: fadeIn 2s ease-in;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .devise p{
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+.devise img{
+    width: 10%;
 }
 
 }
@@ -168,7 +171,7 @@ font-size: 1.2rem;
 }
 
 .debut{
-    font-size: 1em;
+    font-size: 1.5rem;
 }
 
 .button {
@@ -205,8 +208,12 @@ font-size: 0.8rem;
 
 }
 
+.debut{
+    font-size: 1.3rem;
+}
+
 .devise p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .devise img{
@@ -224,6 +231,7 @@ font-size: 0.8rem;
     cursor: pointer;
     font-size: 1rem;
 }
+
 
 }
 
