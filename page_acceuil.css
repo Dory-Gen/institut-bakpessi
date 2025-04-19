@@ -35,9 +35,14 @@
 
 }
 
-.devise img{
-    width: 5%;
+.devise p{
+    font-size: 1rem;
 }
+
+.devise img{
+    width: 10%;
+}
+
 
 .button {
     display: flex;
@@ -114,6 +119,23 @@ font-size: 1.2rem;
 
 
 }
+.fond_acceuil{
+    height: 70vh;
+}
+.flou_fond_acceuil{
+    height: 70vh;
+}
+
+.debut {
+
+    padding: 25vh 10vw;
+    animation: fadeIn 2s ease-in;
+    font-size: 2rem;
+}
+
+.devise p{
+    font-size: 1.5rem;
+}
 
 }
 
@@ -181,6 +203,10 @@ font-size: 1.2rem;
 font-size: 0.8rem;
 
 
+}
+
+.devise p{
+    font-size: 0.8rem;
 }
 
 .devise img{

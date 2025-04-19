@@ -43,8 +43,8 @@
     }
 
     .div_1 {
-        height: 30vh;
-        width: 30vw;
+        height: 20vh;
+        width: 25vw;
         background-color:#890c25 ;
         
         color: white;
@@ -61,6 +61,40 @@
     }
 
 }
+
+@media (max-width: 990px){
+
+    
+    .stats{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        place-self: center;
+    
+        
+    }
+
+    .div_1 {
+        height: 30vh;
+        width: 25vw;
+        background-color:#890c25 ;
+        
+        color: white;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .div_2 {
+        width: 0.1vw;
+        background-color: white;
+        height: 25vh;
+    }
+
+}
+
 
 @media (max-width: 890px){
 

@@ -56,15 +56,19 @@ justify-content: center;
 
 .devise_2 P{
     color: #890c25;
+    font-size: 1rem;
     
 }
 
-.propos {
+.propos p {
    height: auto;
+   text-align: justify;
+   font-size: 1rem;
 }
 
 .propos h1{
     font-family: Cormorant Garamond;
+    font-size: 2rem;
 }
 
 .button_2 {
@@ -75,16 +79,16 @@ justify-content: center;
     background-color: #890c25;
     border: none;
     justify-content: space-between;
-    
+    font-size: 1.2rem;
     margin-top: 2em;
 
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1200px){
     .flex_a_propos {
         margin-top: 1em;
         display: flex;
-        
+        flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size:0.7rem;
@@ -92,7 +96,7 @@ justify-content: center;
 
     .image_a_propos {
         display: flex;
-        width: 55%;
+        width: 90%;
         align-items: center;
         justify-content: center;
         gap: 1em;
@@ -100,10 +104,11 @@ justify-content: center;
     }
 
     .phrase{
-        width: 40%;
+        width: 90%;
         align-items: center;
         margin-bottom: 7em;
         justify-content: center;
+       
         
     }
 
@@ -119,8 +124,107 @@ justify-content: center;
         margin-bottom: 10em;
         
     }
+.propos p{
+    font-size: 1.5rem;
+}
+    .devise_2 p{
+        font-size: 1.2rem;
+    }
+
+    .propos h1{
+        font-size: 2.5rem;
+    }
 }
 
+@media (max-width: 1024px){
+    .flex_a_propos {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size:0.7rem;
+    } 
+
+    .image_a_propos {
+        display: flex;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        gap: 1em;
+        
+    }
+
+    .phrase{
+        width: 90%;
+        align-items: center;
+        margin-bottom: 7em;
+        justify-content: center;
+       
+        
+    }
+
+    .image_1{
+        width: 90vw;
+        
+        margin-bottom: 1em;
+        
+    }
+    
+    .image_2{
+        width: 90vw;
+        margin-bottom: 10em;
+        
+    }
+
+    
+}
+
+@media (max-width: 990px){
+    .flex_a_propos {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    } 
+
+    .image_a_propos {
+        display: flex;
+        width: 95%;
+        align-items: center;
+        justify-content: center;
+        
+        height: auto;
+        place-self: center;
+        
+    }
+
+    .phrase{
+        width: 90%;
+        align-items: center;
+        margin-bottom: 1em;
+        justify-content: center;
+        
+        font-size: 1.2rem;
+    }
+
+    .image_1{
+        width: 90vw;
+        
+        
+    }
+    
+    .image_2{
+        width: 90vw;
+        margin-bottom: 10em;
+        
+    }
+    .propos p{
+        font-size: 1.2rem;
+    }
+}
 
 @media (max-width: 768px){
     .flex_a_propos {
@@ -137,17 +241,18 @@ justify-content: center;
         width: 95%;
         align-items: center;
         justify-content: center;
-        gap: 1em;
-        height: 40%;
+        
+        height: auto;
+        place-self: center;
         
     }
 
     .phrase{
         width: 90%;
         align-items: center;
-        margin-bottom: 15em;
+        margin-bottom: 10em;
         justify-content: center;
-        height: 40%;
+        
         font-size: 1.2rem;
     }
 
@@ -162,6 +267,7 @@ justify-content: center;
         margin-bottom: 10em;
         
     }
+    
 }
 
 
@@ -174,6 +280,7 @@ justify-content: center;
         flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: auto;
     
     } 
 
@@ -193,9 +300,12 @@ justify-content: center;
         justify-content: center;
     }
 
-    .devise_2{
+    .devise_2 {
         font-size: 0.8em;
     }
+.devise_2 p{
+    font-size: 0.8rem;
+}
 
     .devise_2 img{
         width: 15%;
