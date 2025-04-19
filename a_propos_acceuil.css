@@ -110,7 +110,7 @@ height: auto;
     .phrase{
         width: 90%;
         align-items: center;
-        margin-bottom: 7em;
+        
         justify-content: center;
        
         
@@ -162,7 +162,7 @@ height: auto;
     .phrase{
         width: 90%;
         align-items: center;
-        margin-bottom: 7em;
+        
         justify-content: center;
        
         
@@ -302,14 +302,14 @@ height: auto;
         width: 90%;
         align-items: center;
         justify-content: center;
-        gap: 0.7em;
+        
         
     }
 
     .phrase{
         width: 90%;
         align-items: center;
-        margin-bottom: 15em;
+        
         justify-content: center;
     }
 
@@ -339,5 +339,12 @@ height: auto;
     }
     .propos h1{
         font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 481px){
+    .devise_2 p{
+        font-size: 0.7em;
     }
 }
