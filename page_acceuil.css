@@ -1,8 +1,16 @@
+
+.homer{
+    
+    padding: 60px 10% 0;
+}
+
 .fond_acceuil {
 
     background-image: url(https://lh3.googleusercontent.com/d/1mrKltlKY7A5JRJdy9gu7_atZ3_meSs6T);
     background-size: cover;
     background-position: center;
+    
+    
     
     
     height: 100vh;
