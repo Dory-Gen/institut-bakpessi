@@ -43,6 +43,12 @@ header {
     
 }
 
+.logo a img{
+align-self: center;
+justify-content: center;
+align-items: center;
+}
+
 nav {
     display: flex;
     
