@@ -34,7 +34,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.014);
+  background: rgba(0, 0, 0, 0.404);
   z-index: 1;
 }
 
@@ -72,7 +72,7 @@
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 30px;
+  
   font-size: 1.2rem;
   display: flex;
   align-items: center;
