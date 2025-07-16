@@ -222,7 +222,7 @@ align-items: center;
 }
 }
 
-@media (max-width: 891px){
+@media (max-width: 897px){
 .logo{
     width: 25%;
 }
@@ -303,13 +303,13 @@ align-items: center;
 
 @media (max-width: 681px){
     .logo{
-        width: 40%;
+        width: 30%;
     }
 }
 
 @media (max-width: 591px){
     .logo{
-        width: 40%;
+        width: 50%;
         
     }
 }
