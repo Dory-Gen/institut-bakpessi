@@ -165,3 +165,26 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelectorAll(".element-carrousel");
+    let indexActuel = 0;
+    const delai = 5000; // temps entre les slides (en ms)
+
+    function afficherSlide(index) {
+      // Retirer la classe "actif" de tous les slides
+      slides.forEach(slide => slide.classList.remove("actif"));
+
+      // Ajouter la classe "actif" au slide courant
+      slides[index].classList.add("actif");
+    }
+
+    function afficherSuivant() {
+      indexActuel = (indexActuel + 1) % slides.length;
+      afficherSlide(indexActuel);
+    }
+
+    // Lancer le carrousel automatiquement
+    setInterval(afficherSuivant, delai);
+  });
+

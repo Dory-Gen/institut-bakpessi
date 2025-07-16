@@ -1,0 +1,115 @@
+/* Carrousel */
+.carrousel {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Slides */
+.element-carrousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.element-carrousel.actif {
+  display: block;
+}
+
+/* Image */
+.element-carrousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.element-carrousel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.014);
+  z-index: 1;
+}
+
+
+/* Texte */
+.debut {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: white;
+  z-index: 2;
+  max-width: 45%;
+}
+
+.devise {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.devise img {
+  width: 40px;
+}
+
+.phrase_accroche h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.button {
+  background-color: #890c25;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover{
+    
+  
+    border: 2px solid white ;
+    
+}
+
+.button img {
+  width: 20%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .debut {
+    max-width: 90%;
+    top: 45%;
+    transform: translateY(-45%);
+  }
+
+  .phrase_accroche h2 {
+    font-size: 24px;
+  }
+
+  .devise img {
+    width: 30px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}

@@ -4,7 +4,7 @@
     align-items: center;
 justify-content: center;
 height: auto;
-
+padding: 30px 3% 0;
 }
 
 
@@ -85,8 +85,12 @@ height: auto;
     justify-content: space-between;
     font-size: 1.2rem;
     margin-top: 2em;
+    border-radius: 30px;
+    cursor: pointer;
 
 }
+
+
 
 @media (max-width: 1200px){
     .flex_a_propos {

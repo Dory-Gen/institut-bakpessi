@@ -38,7 +38,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    padding: 2px;
     gap: 10px;
     
 }
@@ -47,6 +47,7 @@ header {
 align-self: center;
 justify-content: center;
 align-items: center;
+
 }
 
 nav {
@@ -138,6 +139,16 @@ nav {
 
 /* Responsive */
 
+@media (max-width: 1200px){
+
+    .logo {
+      width: 25%;  
+
+    }
+
+   
+}
+
 @media (max-width: 1024px) {
     nav {
         display: none;
@@ -186,7 +197,7 @@ nav {
     }
 
    .logo {
-    width: 50%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,6 +219,12 @@ align-items: center;
 .logo h4{
     width: 30%;
     
+}
+}
+
+@media (max-width: 891px){
+.logo{
+    width: 25%;
 }
 }
 
@@ -259,7 +276,7 @@ align-items: center;
     }
 
    .logo {
-    width: 50%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -282,4 +299,17 @@ align-items: center;
     width: 30%;
     
 }
+}
+
+@media (max-width: 681px){
+    .logo{
+        width: 40%;
+    }
+}
+
+@media (max-width: 591px){
+    .logo{
+        width: 40%;
+        
+    }
 }
