@@ -99,7 +99,7 @@ flex-wrap: wrap;
 }
 
 
-@media (max-width: 890px){
+@media (max-width: 891px){
 
     
     .stats{
@@ -112,7 +112,7 @@ flex-wrap: wrap;
     }
 
     .div_1 {
-        height: 30vh;
+        height: 32vh;
         width: 25vw;
         background-color:#890c25 ;
         
@@ -144,7 +144,7 @@ flex-wrap: wrap;
         
     }
     .div_1 {
-        height: 25vh;
+        height: 35vh;
         width: 25vw;
         background-color:#890c25 ;
         
@@ -156,7 +156,7 @@ flex-wrap: wrap;
     }
     
     .div_2 {
-        width: 0.1vw;
+        width: 0.3vw;
         background-color: white;
         height: 25vh;
     }
@@ -178,7 +178,7 @@ flex-wrap: wrap;
     }
 
     .div_1 {
-        height: 25vh;
+        height: 30vh;
         width: 60vw;
         background-color:#890c25 ;
         
@@ -192,7 +192,7 @@ flex-wrap: wrap;
     .div_2 {
         width: 60vw;
         background-color: white;
-        height: 0.1vh;
+        height: 0.5vh;
     }
 
 }
@@ -225,7 +225,7 @@ flex-wrap: wrap;
     .div_2 {
         width: 60vw;
         background-color: white;
-        height: 0.1vh;
+        height: 0.5vh;
     }
 
 }
